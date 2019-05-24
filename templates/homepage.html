@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My first Django project</title>
+</head>
+
+<body>
+  <h1>WORD COUNT</h1>
+  <strong><a href="{% url 'About'%}">About Page</a></strong>
+  <p style="color: red;">This is awesome!!!</p>
+  <p>I'm really liking this web thing.</p>
+
+  <form action="count">
+    <textarea name="fulltext" rows="8" cols="40"></textarea>
+    <br>
+    <input type="submit" name="" value="count">
+  </form>
+
+</body>
+
+</html>
